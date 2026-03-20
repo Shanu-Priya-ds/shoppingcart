@@ -1,0 +1,17 @@
+#cartItemCount{
+    border-radius: 50%;
+    top:-1;
+    color: green;
+    position: absolute;
+}
+
+.cartHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}

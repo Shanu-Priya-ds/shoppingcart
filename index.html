@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Shopping Cart</h1>
+        
+    <section class="cartHeader">
+    <div>
+        <input type="text" id="itemToBeAdded" placeholder="Please enter the item." />
+        <Button id="addBtn">AddItem</Button>
+        <!-- <Button id="removeBtn">RemoveItem</Button> -->
+         <input type="text" id="searchTxt" placeholder="Search for item here"/>
+         <Button id="searchBtn">Search</Button>
+        <ul id="unOrderlist"></ul>
+    </div>
+    <div style="position: relative;">
+        <img style="width:10%;" src="./images/cart.png">
+        <span id="cartItemCount">0</span>
+    </div>
+    </section>
+</body>
+
+</html>
